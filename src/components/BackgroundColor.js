@@ -28,6 +28,31 @@ const BackgroundColor = (type) => {
         else if(type==='fairy'){
           return 'bg-gradient-to-r from-red-100 to-red-300'
         }
+        else if(type==='fighting'){
+          return 'bg-gradient-to-r from-red-700 to-red-300'
+        }
+        else if(type==='ghost'){
+          return 'bg-gradient-to-r from-purple-700 to-purple-300'
+        }
+        else if(type==='rock'){
+          return 'bg-gradient-to-r from-orange-800 to-orange-500'
+        }
+        else if(type==='psychic'){
+          return 'bg-gradient-to-r from-fuchsia-300 to-fuchsia-700'
+        }
+        else if(type==='ice'){
+          return 'bg-gradient-to-r from-indigo-300 to-indigo-700'
+        }
+        else if(type==='dragon'){
+          return 'bg-gradient-to-r from-red-500 to-orange-300'
+        }
+        else if(type==='dark'){
+          return 'bg-gradient-to-r from-gray-300 to-gray-600'
+        }
+        else if(type==='steel'){
+          return 'bg-gradient-to-r from-cyan-600 to-cyan-900'
+        }
+        
       
 }
 
